@@ -36,9 +36,14 @@ elseif has('gui_macvim')
   set macmeta
 
 else
+  " Linux
   set guifont=Monaco\ for\ Powerline\ 11
- "set lines=80
- "set columns=100
- set nocompatible
- set t_Co=256
+  "set lines=80
+  "set columns=100
+  set nocompatible
+  set t_Co=256
+  imap OA <up>
+  imap OB <down>
+  imap OC <right>
+  imap OD <left>
 endif

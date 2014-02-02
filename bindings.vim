@@ -14,19 +14,11 @@ imap <F1> <Esc>
 " repeat the last macro instead. *hat tip* http://vimbits.com/bits/263
 nmap Q @@
 
-" Removes doc lookup binding because it's easy to fat finger
-nmap K k
-vmap K k
-
 " Make line completion easier
 imap <C-l> <C-x><C-l>
 
 " Overrides neocomplcache with regular keyword completion
 inoremap <expr><C-k>  "\<C-x><C-n>"
-
-" Use ; for : in normal and visual mode, less keystrokes
-nnoremap ; :
-vnoremap ; :
 
 " double percentage sign in command mode is expanded
 " to directory of current file - http://vimcasts.org/e/14
@@ -64,17 +56,17 @@ inoremap <A-k> <Esc>:m-2<CR>==gi
 vnoremap <A-j> :m'>+<CR>gv=gv 
 vnoremap <A-k> :m-2<CR>gv=gv
 
-" CMD-x is cut
-vnoremap <D-x> "+x
-inoremap <D-x> "+x
+" CTRL-x is cut
+vnoremap <C-x> "+x
+inoremap <C-x> "+x
 
-" CMD-C is copy
-vnoremap <D-c> "+y
-inoremap <D-c> "+y
+" CTRL-C is copy
+vnoremap <C-c> "+y
+inoremap <C-c> "+y
 
-" CMD-V is paste
-noremap <D-v> "+gP
-inoremap <D-v> <Esc>"+gPa
+" CTRL-V is paste
+noremap <C-v> "+gP
+inoremap <C-v> <Esc>"+gPa
 
 " Swap current line and one below
 noremap <C-S-s> ddp
@@ -106,9 +98,6 @@ elseif has("unix")
   map \b :!google-chrome % &<CR>
 endif
 
-" ---------------
-" Leader Commands
-" ---------------
 " Toggle spelling mode with ,s
 nmap <silent> <leader>s :set spell!<CR>
 " Edit vimrc with ,v
@@ -166,14 +155,20 @@ nmap <silent> g= :wincmd =<CR>
 nmap <silent> gx :wincmd x<CR>
 
 " Let's make escape better, together.
-inoremap jk <Esc>
-inoremap kj <Esc>
-vnoremap jk <Esc>
-vnoremap kj <Esc>
+"inoremap jk <Esc>
+inoremap df <Esc>
+"inoremap kj <Esc>
+inoremap fd <Esc>
+"vnoremap jk <Esc>
+vnoremap df <Esc>
+"vnoremap kj <Esc>
+vnoremap fd  <Esc>
 inoremap <Esc> <nop>
 
 " Save in insert mode with ;;
 "inoremap ;; <silent><Esc>:update<CR>
 
 " Shift + movement selects text
-let macvim_hig_shift_movement = 1
+"let macvim_hig_shift_movement = 1
+let gvim_hig_shift_movement = 1
+let vim_hig_shift_movement = 1

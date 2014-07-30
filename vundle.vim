@@ -65,7 +65,7 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate' 
 Bundle 'MarcWeber/vim-addon-mw-utils'
 "Bundle 'Shougo/neocomplcache'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 " Language Additions
 "   Ruby
 Bundle 'vim-ruby/vim-ruby'

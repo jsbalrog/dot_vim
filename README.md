@@ -1,10 +1,10 @@
-# BuffaloBillion's Vim Configuration
+# jsbalrog's Vim Configuration
 
 Credit where credit is due: This is a fork of mutewinter's [dot_vim](http://gitego.com/mutewinter/dot_vim)
 
 ## Installation
 
-1. `git clone http://github.com/buffalobillion/dot_vim.git` in your home folder.
+1. `git clone http://github.com/jsbalrog/dot_vim.git` in your home folder.
 2. `mv dot_vim .vim`
 3. `cd .vim`
 4. `rake vim:link` to make the .vimrc symbolic link.

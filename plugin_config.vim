@@ -91,11 +91,11 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
-let g:ycm_filetype_specific_completion_to_disable = {
-    \ 'ruby' : 1,
-    \ 'javascript' : 1,
-    \ 'html' : 1,
-    \}
+"let g:ycm_filetype_specific_completion_to_disable = {
+"    \ 'ruby' : 1,
+"    \ 'javascript' : 1,
+"    \ 'html' : 1,
+"    \}
 
 " ---------------
 " Fugitive
@@ -106,7 +106,7 @@ nmap <Leader>gs :Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
  " Mnemonic, gu = Git Update
 nmap <Leader>gu :Git pull<CR>
-nmap <Leader>gd :Gdiff<CR>
+nmap <leader>gd :Gdiff<CR>
 " Exit a diff by closing the diff window
 nmap <Leader>gx :wincmd h<CR>:q<CR>
 
@@ -253,4 +253,9 @@ let g:used_javascript_libs = 'underscore,angular'
 " Solarized theme for vim-powerline
 " -------------------------
 "let g:Powerline_theme='short'
-"let g:Powerline_colorscheme='solarized256_dark'
+"let g:Powerline_colorscheme='solarized256_light'
+
+" -------------------------
+" EasyGrep
+" -------------------------
+map <silent> <leader>v :ccl<CR>

@@ -17,6 +17,9 @@ nmap Q @@
 " Make line completion easier
 imap <C-l> <C-x><C-l>
 
+" Search and replace the word under cursor
+:nnoremap <Leader>g :%s/\<<C-r><C-w>\>//g<Left><Left>
+
 " Overrides neocomplcache with regular keyword completion
 inoremap <expr><C-k>  "\<C-x><C-n>"
 
@@ -156,19 +159,21 @@ nmap <silent> gx :wincmd x<CR>
 
 " Let's make escape better, together.
 "inoremap jk <Esc>
-inoremap df <Esc>
+"inoremap jk <Esc>
 "inoremap kj <Esc>
-inoremap fd <Esc>
+inoremap df <Esc>
 "vnoremap jk <Esc>
-vnoremap df <Esc>
+"vnoremap jk <Esc>
 "vnoremap kj <Esc>
-vnoremap fd  <Esc>
-inoremap <Esc> <nop>
+vnoremap df  <Esc>
+"inoremap <Esc> <nop>
+"nnoremap jk <Esc>
+nnoremap df <Esc>
 
 " Save in insert mode with ;;
 "inoremap ;; <silent><Esc>:update<CR>
 
 " Shift + movement selects text
-"let macvim_hig_shift_movement = 1
+let macvim_hig_shift_movement = 1
 let gvim_hig_shift_movement = 1
 let vim_hig_shift_movement = 1

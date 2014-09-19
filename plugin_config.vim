@@ -109,7 +109,7 @@ vmap <Leader>t" :Tabularize /"<CR>
 " Fugitive
 " ---------------
 nmap <Leader>com :Gcommit -v<CR>
-nmap <Leader>w :Gwrite<CR>
+nmap <Leader>wr :Gwrite<CR>
 nmap <Leader>st :Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
  " Mnemonic, up = Git Update

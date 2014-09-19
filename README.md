@@ -55,7 +55,7 @@ dependencies.
  * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - Multiple cursors for Vim.
  * [vim-signify](https://github.com/mhinz/vim-signify) - Uses signs to indicate added, modified and removed lines.
  * [undotree](https://github.com/mbbill/undotree) - Visualize Vim's undo tree.
- * [nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Vim plugin for intensely orgasmic commenting
+ * [nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Vim plugin for commenting.
  * [vim-surround](https://github.com/tpope/vim-surround) - surround.vim: quoting/parenthesizing made simple
  * [vim-fugitive](https://github.com/tpope/vim-fugitive) - fugitive.vim: a Git wrapper so awesome, it should be illegal
  * [tabular](https://github.com/godlygeek/tabular) - Vim script for text filtering and alignment
@@ -66,10 +66,7 @@ dependencies.
  * [keepcase.vim](https://github.com/vim-scripts/keepcase.vim) - Functions for doing case-persistent substitutions
  * [scratch.vim](https://github.com/vim-scripts/scratch.vim) - Plugin to create and use a scratch Vim buffer
  * [emmet-vim](https://github.com/mattn/emmet-vim) - zen-coding for Vim.
- * [GIFL](https://github.com/mutewinter/GIFL) - Add "wrap terms in google I'm feeling lucky url" à la Textmate
- * [vim-markdown-preview](https://github.com/swaroopch/vim-markdown-preview) - Select Markdown text, render to HTML and preview in browser
  * [switch.vim](https://github.com/AndrewRadev/switch.vim) - A simple Vim plugin to switch segments of text with predefined replacements
- * [IndexedSearch](https://github.com/vim-scripts/IndexedSearch) - shows  'Nth match out of M'  at every search (index of match+total # matches)
  * [delimitMate](https://github.com/Raimondi/delimitMate) - Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.
  * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim
  * [MatchTagAlways](https://github.com/Valloric/MatchTagAlways) - Vim's MatchParen for HTML tags
@@ -95,8 +92,6 @@ dependencies.
  * [vim-tomdoc](https://github.com/jc00ke/vim-tomdoc) - Simple vim plugin that adds TomDoc templates to your code.
  * [cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development.
  * [taskpaper.vim](https://github.com/mutewinter/taskpaper.vim) - This package contains a syntax file and a file-type plugin for the simple format used by the TaskPaper application.
- * [nginx.vim](https://github.com/mutewinter/nginx.vim) - Syntax highlighting for nginx.conf and related config files.
- * [textile.vim](https://github.com/timcharper/textile.vim) - Textile for VIM
  * [vim-css3-syntax](https://github.com/mutewinter/vim-css3-syntax) - Add CSS3 syntax support to vim's built-in `syntax/css.vim`.
  * [vimux](https://github.com/benmills/vimux) - http://tmux.svn.sourceforge.net/viewvc/tmux/trunk/examples/tmux.vim?view=log
  * [vim-markdown](https://github.com/hallison/vim-markdown) - Markdown syntax highlight for Vim editor with snippets support

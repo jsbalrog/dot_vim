@@ -39,6 +39,9 @@ dependencies.
  * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/download/) Required
  for Markdown-Preview.
 
+## Key bindings
+For a list of my current keybindings, please go [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).
+
 ## Plugin List
 
  * [vundle](https://github.com/gmarik/vundle) - Vundle, the plug-in manager for Vim

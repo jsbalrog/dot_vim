@@ -108,15 +108,15 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 " Fugitive
 " ---------------
-nmap <Leader>gc :Gcommit -v<CR>
-nmap <Leader>gw :Gwrite<CR>
-nmap <Leader>gs :Gstatus<CR>
+nmap <Leader>com :Gcommit -v<CR>
+nmap <Leader>w :Gwrite<CR>
+nmap <Leader>st :Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
- " Mnemonic, gu = Git Update
-nmap <Leader>gu :Git pull<CR>
-nmap <leader>gd :Gdiff<CR>
+ " Mnemonic, up = Git Update
+nmap <Leader>up :Git pull<CR>
+nmap <leader>diff :Gdiff<CR>
 " Exit a diff by closing the diff window
-nmap <Leader>gx :wincmd h<CR>:q<CR>
+nmap <silent> <Leader>bd :wincmd h<CR>:q<CR>
 
 " ---------------
 " Zoomwin

@@ -9,6 +9,14 @@
 let g:space_disable_select_mode=1
 
 " ---------------
+" Ultisnips
+" ---------------
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" ---------------
 " DelimitMate
 " ---------------
 let delimitMate_expand_cr = 1
@@ -17,7 +25,7 @@ let delimitMate_matchpairs = "[:],{:},(:)"
 " ---------------
 "  jshint.vim
 "  --------------
-let g:JSHintHighlightErrorLine = 0
+"let g:JSHintHighlightErrorLine = 0
 
 " ---------------
 " Syntastic
@@ -40,7 +48,8 @@ let g:NERDTreeShowBookmarks=1
 "let g:NERDTreeChDirMode=2 " Change the NERDTree directory to the root node
 "let g:NERDTreeMinimalUI=1
 " Close NERDTree after opening a file
-"let g:NERDTreeQuitOnOpen=2
+let g:NERDTreeQuitOnOpen=2
+let g:NERDTreeShowHidden=1
 
 " ---------------
 "  NERDCommenter
@@ -68,7 +77,6 @@ nmap <silent><leader>dn <Plug>SpeedDatingNowUTC
 " ---------------
 " Supertab
 " ---------------
-"let g:SuperTabContextDefaultCompletionType = "<c-n>"
 
 " ---------------
 " Tabular
@@ -89,8 +97,8 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 " YouCompleteMe
 " ---------------
-let g:ycm_complete_in_comments = 1
-let g:ycm_collect_identifiers_from_comments_and_strings = 1
+"let g:ycm_complete_in_comments = 1
+"let g:ycm_collect_identifiers_from_comments_and_strings = 1
 "let g:ycm_filetype_specific_completion_to_disable = {
 "    \ 'ruby' : 1,
 "    \ 'javascript' : 1,

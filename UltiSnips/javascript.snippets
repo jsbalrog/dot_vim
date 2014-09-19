@@ -1,0 +1,25 @@
+snippet angmod "Create an angular.module definition" b
+angular.module('$1', [$2])$3
+endsnippet
+
+snippet angcon "Create an angular controller" b
+angular.module('$1').controller('$2', function($3) {
+	$4
+});
+endsnippet
+
+snippet angfac "Create an angular factory" b
+angular.module('$1').factory('$2', function($3) {
+	$4
+
+	return {};
+});
+endsnippet
+
+snippet angdir "Description" b
+angular.module('$1').directive('$2', function($3) {
+	return {
+		$4
+	};
+});
+endsnippet

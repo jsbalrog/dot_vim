@@ -177,3 +177,6 @@ nnoremap df <Esc>
 let macvim_hig_shift_movement = 1
 let gvim_hig_shift_movement = 1
 let vim_hig_shift_movement = 1
+
+" HTML Tidy
+vmap ,x :!tidy -q -i --show-errors 0<CR>

@@ -5,10 +5,10 @@
 " ---------------
 " Color
 " ---------------
-set background=light
-"set background=dark
-"colorscheme jellybeans
-colorscheme solarized
+"set background=light
+set background=dark
+colorscheme jellybeans
+"colorscheme solarized
 
 " -----------------------------
 " Backups, Tmp Files, and Undo

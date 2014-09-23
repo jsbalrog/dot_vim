@@ -2,7 +2,7 @@
 " Bindings
 " ----------------------------------------
 " Set leader to ,
-" Note: This line MUST come before any <leader> mappings
+" Note: This line MUST come before any <Leader> mappings
 let mapleader=","
 
 " Fixes common typos
@@ -34,7 +34,7 @@ nmap gy :%y+<cr>
 " Hat-tip http://vimbits.com/bits/11
 nnoremap Y y$
 
-" Just to beginning and end of lines easier. From http://vimbits.com/bits/16
+" Move to beginning and end of lines easier. From http://vimbits.com/bits/16
 noremap H ^
 noremap L $
 
@@ -71,10 +71,6 @@ inoremap <C-c> "+y
 noremap <C-v> "+gP
 inoremap <C-v> <Esc>"+gPa
 
-" Swap current line and one below
-noremap <C-S-s> ddp
-inoremap <C-S-s> <Esc>ddpli
-
 " ---------------
 "  Running
 "  --------------
@@ -102,20 +98,20 @@ elseif has("unix")
 endif
 
 " Toggle spelling mode with ,s
-nmap <silent> <leader>s :set spell!<CR>
+nmap <silent> <Leader>s :set spell!<CR>
 " Edit vimrc with ,v
-nmap <silent> <leader>v :e ~/.vim/vimrc<CR>
+nmap <silent> <Leader>v :e ~/.vim/vimrc<CR>
 " Quickly switch to last buffer
-nnoremap <leader>, :e#<CR>
+nnoremap <Leader>, :e#<CR>
 " Duplicate current line
 inoremap <c-d> <esc>yypi
 nnoremap <c-d> yyp
 
 " Split window vertically or horizontally *and* switch to the new split!
-nmap <silent> <leader>hs :split<Bar>:wincmd j<CR>
-nmap <silent> <leader>vs :vsplit<Bar>:wincmd l<CR>
+nmap <silent> <Leader>hs :split<Bar>:wincmd j<CR>
+nmap <silent> <Leader>vs :vsplit<Bar>:wincmd l<CR>
 " Close the current window
-nmap <silent> <leader>sc :close<CR>
+nmap <silent> <Leader>c :close<CR>
 
 " Window Movement
 " Here's a visual guide for moving between window splits.
@@ -179,4 +175,4 @@ let gvim_hig_shift_movement = 1
 let vim_hig_shift_movement = 1
 
 " HTML Tidy
-vmap ,x :!tidy -q -i --show-errors 0<CR>
+vmap <Leader>x :!tidy -q -i --show-errors 0<CR>

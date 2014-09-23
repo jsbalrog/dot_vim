@@ -51,7 +51,6 @@ For a list of my current keybindings, please go [here](https://docs.google.com/s
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder.
  * [vim-indent-guides](https://github.com/mutewinter/vim-indent-guides) - A Vim plugin for visually displaying indent levels in code
  * [vim-powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
- * [nerdtree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for vim.
  * [colorv.vim](https://github.com/Rykka/colorv.vim) - A vim plugin to make  colors handling easier
  * [jellybeans.vim](https://github.com/nanotech/jellybeans.vim) - A colorful, dark color scheme for Vim.
  * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colors for Vim.

@@ -42,18 +42,19 @@ endif
 " ---------------
 " NERDTree
 " ---------------
-nnoremap <silent><F2> :NERDTreeToggle<CR>
-nnoremap <leader>nf :NERDTreeFind<CR>
-let g:NERDTreeShowBookmarks=1
+"nnoremap <silent><F2> :NERDTreeToggle<CR>
+"nnoremap <leader>nf :NERDTreeFind<CR>
+"let g:NERDTreeShowBookmarks=1
 "let g:NERDTreeChDirMode=2 " Change the NERDTree directory to the root node
 "let g:NERDTreeMinimalUI=1
 " Close NERDTree after opening a file
-let g:NERDTreeQuitOnOpen=2
-let g:NERDTreeShowHidden=1
+"let g:NERDTreeQuitOnOpen=2
+"let g:NERDTreeShowHidden=1
 
 " ---------------
 "  NERDCommenter
 "  --------------
+
 " ---------------
 " Indent Guides
 " ---------------
@@ -123,6 +124,12 @@ nmap <silent> <Leader>bd :wincmd h<CR>:q<CR>
 " ---------------
 " Zoom Window to Full Size
 nmap <silent> <leader>wo :ZoomWin<CR>
+
+" ---------------
+" FuzzyFinder
+" ---------------
+nmap <C-S-b> :FufBuffer<CR>
+nmap <C-S-f> :FufFile<CR>
 
 " ---------------
 " ctrlp.vim

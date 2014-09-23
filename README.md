@@ -8,9 +8,8 @@ Credit where credit is due: This is a fork of mutewinter's [dot_vim](http://gite
 2. `mv dot_vim .vim`
 3. `cd .vim`
 4. `rake vim:link` to make the .vimrc symbolic link.
-5. Install [Vundle](https://github.com/gmarik/vundle) with `git clone
-   http://github.com/gmarik/vundle.git bundle/vundle`
-6. Run Vim and type `:BundleInstall` to install the plugins with Vundle.
+5. Install [Vundle](https://github.com/gmarik/vundle) with `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle`
+6. `vim +PluginInstall +qall`.
 
 ## Requirements
 
@@ -34,10 +33,8 @@ dependencies.
  * [syntastic](https://github.com/scrooloose/syntastic) Requires many different
  binaries installed depending on what filetypes you want it to check. See the
  [FAQ](https://github.com/scrooloose/syntastic#faq) for more information.
- * [Menlo for Powerline](https://gist.github.com/1627888) The custom font I'm
+ * [Monofur for Powerline](https://github.com/rsrsl/ttf-monofur-powerline) The custom font I'm
  using for vim-powerline.
- * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/download/) Required
- for Markdown-Preview.
 
 ## Key bindings
 For a list of my current keybindings, please go [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).

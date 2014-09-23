@@ -1,3 +1,6 @@
 bundle/
 sessions/
 .netrwhist
+.backup
+.tmp
+.undo

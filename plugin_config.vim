@@ -42,14 +42,14 @@ endif
 " ---------------
 " NERDTree
 " ---------------
-"nnoremap <silent><F2> :NERDTreeToggle<CR>
-"nnoremap <leader>nf :NERDTreeFind<CR>
-"let g:NERDTreeShowBookmarks=1
+nnoremap <silent><F2> :NERDTreeToggle<CR>
+nnoremap <leader>nf :NERDTreeFind<CR>
+let g:NERDTreeShowBookmarks=1
 "let g:NERDTreeChDirMode=2 " Change the NERDTree directory to the root node
 "let g:NERDTreeMinimalUI=1
 " Close NERDTree after opening a file
-"let g:NERDTreeQuitOnOpen=2
-"let g:NERDTreeShowHidden=1
+let g:NERDTreeQuitOnOpen=2
+let g:NERDTreeShowHidden=1
 
 " ---------------
 "  NERDCommenter

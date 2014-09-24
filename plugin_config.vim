@@ -109,13 +109,13 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 " Fugitive
 " ---------------
-nmap <Leader>com :Gcommit -v<CR>
-nmap <Leader>wr :Gwrite<CR>
-nmap <Leader>st :Gstatus<CR>
+nmap <Leader>gc :Gcommit -v<CR>
+nmap <Leader>gw :Gwrite<CR>
+nmap <Leader>gs :Gstatus<CR>
 nmap <Leader>gp :Git push<CR>
  " Mnemonic, up = Git Update
-nmap <Leader>up :Git pull<CR>
-nmap <leader>diff :Gdiff<CR>
+nmap <Leader>gu :Git pull<CR>
+nmap <leader>gd :Gdiff<CR>
 " Exit a diff by closing the diff window
 nmap <silent> <Leader>bd :wincmd h<CR>:q<CR>
 

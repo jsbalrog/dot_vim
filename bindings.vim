@@ -111,7 +111,7 @@ nnoremap <c-d> yyp
 nmap <silent> <Leader>hs :split<Bar>:wincmd j<CR>
 nmap <silent> <Leader>vs :vsplit<Bar>:wincmd l<CR>
 " Close the current window
-nmap <silent> <Leader>c :close<CR>
+nmap <silent> <Leader>c :bw<CR>
 
 " Window Movement
 " Here's a visual guide for moving between window splits.
@@ -157,14 +157,17 @@ nmap <silent> gx :wincmd x<CR>
 "inoremap jk <Esc>
 "inoremap jk <Esc>
 "inoremap kj <Esc>
-inoremap df <Esc>
+"inoremap df <Esc>
+inoremap <Leader>d <Esc>
 "vnoremap jk <Esc>
 "vnoremap jk <Esc>
 "vnoremap kj <Esc>
-vnoremap df  <Esc>
+"vnoremap df  <Esc>
+vnoremap <Leader>d  <Esc>
 "inoremap <Esc> <nop>
 "nnoremap jk <Esc>
-nnoremap df <Esc>
+"nnoremap df <Esc>
+nnoremap <Leader>d <Esc>
 
 " Save in insert mode with ;;
 "inoremap ;; <silent><Esc>:update<CR>

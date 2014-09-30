@@ -37,7 +37,7 @@ dependencies.
  using for vim-powerline.
 
 ## Key bindings
-For a list of my current keybindings, please go [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).
+For a list of my current keybindings, please see [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).
 
 ## Plugin List
 

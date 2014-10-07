@@ -1,6 +1,6 @@
 # jsbalrog's Vim Configuration
 
-Credit where credit is due: This is a fork of mutewinter's [dot_vim](http://github.com/mutewinter/dot_vim)
+Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](http://github.com/mutewinter/dot_vim)
 
 ## Installation
 

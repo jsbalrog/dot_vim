@@ -13,15 +13,8 @@ Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](h
 
 ## Requirements
 
-**Mac**
-
  * [MacVim](https://github.com/b4winckler/macvim) - I'm currently using
  Vim 7.4 on Mavericks.
-
-## Notes
-
-Be sure to always edit the vimrc using `,v`, which opens the vimrc in the .vim
-folder. Vim has a nasty habit of overriding symlinks.
 
 ## Plugin Installation / Requirements
 
@@ -37,7 +30,7 @@ dependencies.
  using for vim-powerline.
 
 ## Key bindings
-For a list of my current keybindings, please see [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).
+For a list of my current keybindings, please see the document [here](https://docs.google.com/spreadsheets/d/1Qvsp1crvaymStW0eWftVEYM0qDuv6n7TwzOD0cDcubQ/edit?usp=sharing).
 
 ## Plugin List
 

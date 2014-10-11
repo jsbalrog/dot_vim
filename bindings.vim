@@ -154,19 +154,8 @@ nmap <silent> g= :wincmd =<CR>
 nmap <silent> gx :wincmd x<CR>
 
 " Let's make escape better, together.
-"inoremap jk <Esc>
-"inoremap jk <Esc>
-"inoremap kj <Esc>
-"inoremap df <Esc>
 inoremap <Leader>d <Esc>
-"vnoremap jk <Esc>
-"vnoremap jk <Esc>
-"vnoremap kj <Esc>
-"vnoremap df  <Esc>
 vnoremap <Leader>d  <Esc>
-"inoremap <Esc> <nop>
-"nnoremap jk <Esc>
-"nnoremap df <Esc>
 nnoremap <Leader>d <Esc>
 
 " Save in insert mode with ;;

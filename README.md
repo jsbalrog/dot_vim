@@ -3,7 +3,7 @@
 Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](http://github.com/mutewinter/dot_vim)
 
 ## Installation
-
+To install, perform the following:
 1. `git clone http://github.com/jsbalrog/dot_vim.git` in your home folder.
 2. `mv dot_vim .vim`
 3. `cd .vim`

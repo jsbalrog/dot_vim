@@ -1,4 +1,4 @@
-# jsbalrog's Vim Configuration
+# jsbalrog's Vim Configuration of Doom
 
 Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](http://github.com/mutewinter/dot_vim)
 

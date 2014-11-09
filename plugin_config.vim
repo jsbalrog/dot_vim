@@ -118,6 +118,10 @@ nmap <Leader>gu :Git pull<CR>
 nmap <leader>gd :Gdiff<CR>
 " Exit a diff by closing the diff window
 nmap <silent> <Leader>bd :wincmd h<CR>:q<CR>
+"nmap <leader>gcw :write <bar> :Git add %:p <bar> :Gcommit %:p<CR>
+nmap <leader>gpb  :execute ":Git push origin " . fugitive#head(0)<CR>
+nmap <leader>grb  :execute ":Git pull --rebase origin " . fugitive#head(0)<CR>
+nmap <leader>gx  :execute ":Git checkout %"<CR>
 
 " ---------------
 " Zoomwin
@@ -149,7 +153,7 @@ endif
 let g:fuf_enumeratingLimit = 20
 
 nmap <M-S-b> :FufBuffer<CR>
-nmap <M-S-f> :FufFile *\*\/<CR>
+nmap <M-S-f> :FufFile **/<CR>
 nmap <M-S-d> :FufDir<CR>
 
 " ---------------

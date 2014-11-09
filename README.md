@@ -5,10 +5,15 @@ Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](h
 ## Installation
 To install, perform the following:
 1. `git clone http://github.com/jsbalrog/dot_vim.git` in your home folder.
+
 2. `mv dot_vim .vim`
+
 3. `cd .vim`
+
 4. `rake vim:link` to make the .vimrc symbolic link.
+
 5. Install [Vundle](https://github.com/gmarik/vundle) with `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle`
+
 6. `vim +PluginInstall +qall`.
 
 ## Requirements
@@ -39,6 +44,7 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [vim-space](https://github.com/christoomey/vim-space) - space.vim - Smart Space key for Vim
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions on speed!
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder.
+ * [FuzzyFinder](https://github.com/vim-scripts/FuzzyFinder) - A Textmate-style file finder. 
  * [vim-indent-guides](https://github.com/mutewinter/vim-indent-guides) - A Vim plugin for visually displaying indent levels in code
  * [vim-powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
  * [colorv.vim](https://github.com/Rykka/colorv.vim) - A vim plugin to make  colors handling easier

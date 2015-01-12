@@ -49,6 +49,10 @@ nnoremap tn :tabnew<CR>
 nnoremap th :tabprevious<CR>
 nnoremap tl :tabnext<CR>
 
+" Cycling between buffers
+:nnoremap <leader>n :bnext<CR>
+:nnoremap <leader>p :bprevious<CR>
+
 " ---------------
 " Moving lines
 " --------------
@@ -110,6 +114,8 @@ nnoremap <c-d> yyp
 " Split window vertically or horizontally *and* switch to the new split!
 nmap <silent> <Leader>hs :split<Bar>:wincmd j<CR>
 nmap <silent> <Leader>vs :vsplit<Bar>:wincmd l<CR>
+" Close the current split
+nmap <silent> <Leader>cs :hide<CR>
 " Close the current window
 nmap <silent> <Leader>c :bw<CR>
 

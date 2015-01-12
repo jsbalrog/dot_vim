@@ -3,6 +3,11 @@
 " ----------------------------------------
 
 " ---------------
+"  Command-T
+"  -------------
+set wildignore+=*.swp,*.bak,*.class,*.jar,.git/**,node_modules/**
+
+" ---------------
 " space.vim
 " ---------------
 " Disables space mappings in select mode to fix snipMate.
@@ -135,26 +140,26 @@ nmap <silent> <leader>wo :ZoomWin<CR>
 " directories and extensions to ignore when listing files
 "FuzzyFinder should ignore all files in .gitignore
 "Hat-tip: http://stackoverflow.com/a/14641279
-let ignorefile = ".gitignore"
-if filereadable(ignorefile)
+"let ignorefile = ".gitignore"
+"if filereadable(ignorefile)
 
-  let ignore = '\v\~$'
-  for line in readfile(ignorefile)
-    let line = substitute(line, '\.', '\\.', 'g')
-    let line = substitute(line, '\*', '.*', 'g')
-    let ignore .= '|^' . line
-  endfor
+"  let ignore = '\v\~$'
+"  for line in readfile(ignorefile)
+"    let line = substitute(line, '\.', '\\.', 'g')
+"    let line = substitute(line, '\*', '.*', 'g')
+"    let ignore .= '|^' . line
+"  endfor
 
-  let g:fuf_file_exclude = ignore
-endif
+"  let g:fuf_file_exclude = ignore
+"endif
 
 " limit number of displayed matches
 " (makes response instant even on huge source trees)
-let g:fuf_enumeratingLimit = 20
+"let g:fuf_enumeratingLimit = 20
 
-nmap <M-S-b> :FufBuffer<CR>
-nmap <M-S-f> :FufFile **/<CR>
-nmap <M-S-d> :FufDir<CR>
+"nmap <M-S-b> :FufBuffer<CR>
+"nmap <M-S-f> :FufFile **/<CR>
+"nmap <M-S-d> :FufDir<CR>
 
 " ---------------
 " ctrlp.vim
@@ -172,9 +177,9 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Conditional Mappings
 if has('unix')
-  let g:ctrlp_map = '<C-t>'
+  let g:ctrlp_map = '<C-p>'
 else
-  let g:ctrlp_map = '<M-t>'
+  let g:ctrlp_map = '<M-p>'
 endif
 
 " Always use CtrlP for most recently used files and relative dierctory.
@@ -189,6 +194,16 @@ nnoremap <leader>r :CtrlPRoot<CR>
 nnoremap <leader>u :CtrlPCurFile<CR>
 nnoremap <leader>m :CtrlPMRUFiles<CR>
 nnoremap <leader>b :CtrlPBuffer<CR>
+
+" ---------------
+"  ctrlspace
+"  --------------
+"hi CtrlSpaceSelected term=reverse ctermfg=187  ctermbg=23  cterm=bold
+"hi CtrlSpaceNormal   term=NONE    ctermfg=244  ctermbg=232 cterm=NONE
+"hi CtrlSpaceSearch   ctermfg=220  ctermbg=NONE cterm=bold
+"hi CtrlSpaceStatus   ctermfg=230  ctermbg=234  cterm=NONE
+
+"set hidden
 
 " ---------------
 " Powerline

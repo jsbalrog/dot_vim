@@ -17,13 +17,14 @@ Plugin 'gmarik/vundle'
 
 " Navigation
 Plugin 'ZoomWin'
-"Plugin 'wincent/Command-T'
+Plugin 'wincent/Command-T'
 " This fork is required due to remapping ; to :
 Plugin 'christoomey/vim-space'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'dkprice/vim-easygrep'
+"Plugin 'szw/vim-ctrlspace'
 Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/FuzzyFinder'
+"Plugin 'vim-scripts/FuzzyFinder'
 "Plugin 'jeetsukumaran/vim-buffergator'
 " UI Additions
 Plugin 'nathanaelkane/vim-indent-guides'

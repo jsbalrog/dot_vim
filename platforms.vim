@@ -21,7 +21,6 @@ if has('win32') || has('win64')
 elseif has('gui_macvim')
   " MacVim
 
-  " Custom Menlo font for Powerline
   " From: https://github.com/Lokaltog/vim-powerline/wiki/Patched-fonts
   "set guifont=Monaco\ for\ Powerline:h13
   set guifont=Monofur\ for\ Powerline:h18
@@ -37,12 +36,11 @@ elseif has('gui_macvim')
   set macmeta
 
 else
-  " Linux
-  set guifont=Monaco\ for\ Powerline\ 11
+  " Linux, or terminal vim on OSX
+  set guifont=monofur\ for\ Powerline:h18
   "set lines=80
   "set columns=100
   set nocompatible
-  set t_Co=256
   imap OA <up>
   imap OB <down>
   imap OC <right>

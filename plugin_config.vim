@@ -210,10 +210,11 @@ nnoremap <leader>b :CtrlPBuffer<CR>
 " ---------------
 " Keep ^B from showing on Windows in Powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set encoding=utf-8
+set term=xterm-256color
+set termencoding=utf-8
 if has('win32') || has('win64')
   let g:Powerline_symbols = 'compatible'
-elseif has('gui_macvim')
-  let g:Powerline_symbols = 'fancy'
 else
   let g:Powerline_symbols = 'fancy'
 endif

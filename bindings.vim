@@ -115,7 +115,7 @@ nnoremap <c-d> yyp
 nmap <silent> <Leader>hs :split<Bar>:wincmd j<CR>
 nmap <silent> <Leader>vs :vsplit<Bar>:wincmd l<CR>
 " Close the current split
-nmap <silent> <Leader>cs :hide<CR>
+nmap <silent> <Leader>sc :hide<CR>
 " Close the current window
 nmap <silent> <Leader>c :bw<CR>
 

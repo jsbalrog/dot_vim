@@ -3,6 +3,18 @@
 " ---------------------------------------------
 
 " ---------------
+"  Mouse
+"  --------------
+set mouse=a
+
+if has('mouse_sgr')
+  set ttymouse=sgr
+endif
+
+" Allow backspace to remove lines
+set backspace=indent,eol,start
+
+" ---------------
 " Color
 " ---------------
 "set background=light

@@ -1,7 +1,6 @@
 " ----------------------------------------
 " Vundle
 " ----------------------------------------
-
 set nocompatible " be iMproved
 filetype off     " required!
 
@@ -10,11 +9,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/vundle'
-
-" ---------------
-" Plugin
-" ---------------
-
+"
+" " ---------------
+" " Plugin
+" " ---------------
+"
 " Navigation
 Plugin 'ZoomWin'
 Plugin 'wincent/Command-T'
@@ -27,7 +26,7 @@ Plugin 'kien/ctrlp.vim'
 "Plugin 'vim-scripts/FuzzyFinder'
 "Plugin 'jeetsukumaran/vim-buffergator'
 " UI Additions
-Plugin 'nathanaelkane/vim-indent-guides'
+"Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Lokaltog/powerline'
 "Plugin 'stephenmckinney/vim-solarized-powerline'
 Plugin 'scrooloose/nerdtree'
@@ -37,7 +36,8 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'terryma/vim-multiple-cursors'
 "Plugin 'tomtom/quickfixsigns_vim'
-Plugin 'mhinz/vim-signify'
+"Plugin 'mhinz/vim-signify'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'mbbill/undotree'
 " Commands
 Plugin 'scrooloose/nerdcommenter'
@@ -67,7 +67,7 @@ Plugin 'SirVer/ultisnips'
 "Plugin 'garbas/vim-snipmate' 
 "Plugin 'MarcWeber/vim-addon-mw-utils'
 "Plugin 'Shougo/neocomplcache'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 " Language Additions
 "   Ruby
 Plugin 'vim-ruby/vim-ruby'
@@ -81,12 +81,15 @@ Plugin 'leshill/vim-json'
 Plugin 'wookiehangover/jshint.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'maksimr/vim-jsbeautify'
 "   HTML
 Plugin 'nono/vim-handlebars'
 Plugin 'othree/html5.vim'
 Plugin 'indenthtml.vim'
 Plugin 'vim-scripts/HTML-AutoCloseTag'
 Plugin 'bae22/prefixer'
+"   jade
+Plugin 'digitaltoad/vim-jade'
 "   ejs
 Plugin 'briancollins/vim-jst'
 "   TomDoc

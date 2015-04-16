@@ -56,12 +56,21 @@ nnoremap tl :tabnext<CR>
 " ---------------
 " Moving lines
 " --------------
-nnoremap <A-j> :m+<CR>== 
-nnoremap <A-k> :m-2<CR>== 
-inoremap <A-j> <Esc>:m+<CR>==gi 
-inoremap <A-k> <Esc>:m-2<CR>==gi 
-vnoremap <A-j> :m'>+<CR>gv=gv 
-vnoremap <A-k> :m-2<CR>gv=gv
+if has('gui')
+  nnoremap <A-j> :m+<CR>== 
+  nnoremap <A-k> :m-2<CR>== 
+  inoremap <A-j> <Esc>:m+<CR>==gi 
+  inoremap <A-k> <Esc>:m-2<CR>==gi 
+  vnoremap <A-j> :m'>+<CR>gv=gv 
+  vnoremap <A-k> :m-2<CR>gv=gv
+else
+  nnoremap ∆ :m+<CR>== 
+  nnoremap ˚ :m-2<CR>== 
+  inoremap ∆ <Esc>:m+<CR>==gi 
+  inoremap ˚ <Esc>:m-2<CR>==gi 
+  vnoremap ∆ :m'>+<CR>gv=gv 
+  vnoremap ˚ :m-2<CR>gv=gv
+endif
 
 " CTRL-x is cut
 vnoremap <C-x> "+x

@@ -5,6 +5,16 @@
 " ---------------
 "  Command-T
 "  -------------
+set ttimeoutlen=50
+
+if &term =~ "xterm" || &term =~ "screen"
+  " as of March 2013, with current iTerm (1.0.0.20130319), tmux (1.8)
+  " and Vim (7.3, with patches 1-843), this is all I need:
+  " when I originally started using Command-T inside a terminal,
+  " I used to need these as well:
+  let g:CommandTSelectNextMap = ['<C-j>', '<ESC>OB']
+  let g:CommandTSelectPrevMap = ['<C-k>', '<ESC>OA']
+endif
 set wildignore+=*.swp,*.bak,*.class,*.jar,.git/**,node_modules/**
 
 " ---------------
@@ -30,7 +40,7 @@ let delimitMate_matchpairs = "[:],{:},(:)"
 " ---------------
 "  jshint.vim
 "  --------------
-"let g:JSHintHighlightErrorLine = 0
+let g:JSHintHighlightErrorLine = 0
 
 " ---------------
 " Syntastic
@@ -59,11 +69,6 @@ let g:NERDTreeShowHidden=1
 " ---------------
 "  NERDCommenter
 "  --------------
-
-" ---------------
-" Indent Guides
-" ---------------
-"let g:indent_guides_enable_on_vim_startup=1
 
 " ---------------
 " Session
@@ -103,13 +108,13 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 " YouCompleteMe
 " ---------------
-"let g:ycm_complete_in_comments = 1
-"let g:ycm_collect_identifiers_from_comments_and_strings = 1
-"let g:ycm_filetype_specific_completion_to_disable = {
-"    \ 'ruby' : 1,
-"    \ 'javascript' : 1,
-"    \ 'html' : 1,
-"    \}
+let g:ycm_complete_in_comments = 1
+let g:ycm_collect_identifiers_from_comments_and_strings = 1
+let g:ycm_filetype_specific_completion_to_disable = {
+    \ 'ruby' : 1,
+    \ 'javascript' : 1,
+    \ 'html' : 1,
+    \}
 
 " ---------------
 " Fugitive
@@ -316,3 +321,17 @@ let g:used_javascript_libs = 'underscore,angular'
 " EasyGrep
 " -------------------------
 map <silent> <leader>v :ccl<CR>
+
+" ------------------------
+" EasyMotion
+" -----------------------
+map / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
+map n <Plug>(easymotion-next)
+map N <Plug>(easymotion-prev)
+
+" -----------------------
+"  vim-jsbeautify
+"  ----------------------
+autocmd FileType javascript noremap <buffer>  <Leader>5 :call JsBeautify()<cr>

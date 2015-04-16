@@ -40,18 +40,18 @@ For a list of my current keybindings, please see the document [here](https://doc
 ## Plugin List
 
  * [vundle](https://github.com/gmarik/vundle) - Vundle, the plug-in manager for Vim
+ * [Command-T](https://github.com/wincent/Command-T) - Easily search for and open files
  * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out  of windows (toggle between one window and multi-window)
  * [vim-space](https://github.com/christoomey/vim-space) - space.vim - Smart Space key for Vim
- * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions on speed!
+ * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions !
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder.
  * [FuzzyFinder](https://github.com/vim-scripts/FuzzyFinder) - A Textmate-style file finder. 
- * [vim-indent-guides](https://github.com/mutewinter/vim-indent-guides) - A Vim plugin for visually displaying indent levels in code
  * [vim-powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
  * [colorv.vim](https://github.com/Rykka/colorv.vim) - A vim plugin to make  colors handling easier
  * [jellybeans.vim](https://github.com/nanotech/jellybeans.vim) - A colorful, dark color scheme for Vim.
  * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colors for Vim.
  * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - Multiple cursors for Vim.
- * [vim-signify](https://github.com/mhinz/vim-signify) - Uses signs to indicate added, modified and removed lines.
+ * [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - Uses signs to indicate added, modified and removed lines.
  * [undotree](https://github.com/mbbill/undotree) - Visualize Vim's undo tree.
  * [nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Vim plugin for commenting.
  * [vim-surround](https://github.com/tpope/vim-surround) - surround.vim: quoting/parenthesizing made simple

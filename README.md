@@ -40,13 +40,14 @@ For a list of my current keybindings, please see the document [here](https://doc
 ## Plugin List
 
  * [vundle](https://github.com/gmarik/vundle) - Vundle, the plug-in manager for Vim
- * [Command-T](https://github.com/wincent/Command-T) - Easily search for and open files
  * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out  of windows (toggle between one window and multi-window)
+ * [Command-T](https://github.com/wincent/Command-T) - Easily search for and open files
  * [vim-space](https://github.com/christoomey/vim-space) - space.vim - Smart Space key for Vim
- * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions !
+ * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions!
+ * [vim-easygrep](https://github.com/dkprice/vim-easygrep) - grep commands for Vim.
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder.
- * [FuzzyFinder](https://github.com/vim-scripts/FuzzyFinder) - A Textmate-style file finder. 
  * [vim-powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
+ * [NERDtree](https://github.com/scrooloose/nerdtree) - Visualize your directory tree.
  * [colorv.vim](https://github.com/Rykka/colorv.vim) - A vim plugin to make  colors handling easier
  * [jellybeans.vim](https://github.com/nanotech/jellybeans.vim) - A colorful, dark color scheme for Vim.
  * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colors for Vim.
@@ -60,16 +61,17 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [ag.vim](https://github.com/rking/ag.vim) - Vim plugin for the Perl module / CLI script 'ack'
  * [sudo-gui.vim](https://github.com/gmarik/sudo-gui.vim) - sudo GUI for a GUI vim
  * [vim-togglelist](https://github.com/milkypostman/vim-togglelist) - Functions to toggle the [Location List] and the [Quickfix List] windows.
- * [sideways.vim](https://github.com/AndrewRadev/sideways.vim) - A Vim plugin to move function arguments (and other delimited-by-something items) left and right.
  * [keepcase.vim](https://github.com/vim-scripts/keepcase.vim) - Functions for doing case-persistent substitutions
  * [scratch.vim](https://github.com/vim-scripts/scratch.vim) - Plugin to create and use a scratch Vim buffer
  * [emmet-vim](https://github.com/mattn/emmet-vim) - zen-coding for Vim.
  * [switch.vim](https://github.com/AndrewRadev/switch.vim) - A simple Vim plugin to switch segments of text with predefined replacements
  * [delimitMate](https://github.com/Raimondi/delimitMate) - Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.
  * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim
+ * [supertab](https://github.com/ervandew/supertab) - More power for the tab key
  * [MatchTagAlways](https://github.com/Valloric/MatchTagAlways) - Vim's MatchParen for HTML tags
  * [vim-snippets](https://github.com/honza/vim-snippets) - A collection of snippets for Vim.
  * [ultisnips](https://github.com/SirVer/ultisnips) - Make snippets management easy.
+ * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - Vim code completion module.
  * [vim-ruby](https://github.com/vim-ruby/vim-ruby) - Vim/Ruby Configuration Files
  * [vim-haml](https://github.com/tpope/vim-haml) - Vim runtime files for Haml, Sass, and SCSS
  * [vim-rails](https://github.com/tpope/vim-rails) - rails.vim: Ruby on Rails power tools
@@ -80,11 +82,13 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [jshint.vim](https://github.com/wookiehangover/jshint.vim) - Implementation of jshint.
  * [javascript-libraries-syntax](https://github.com/othree/javascript-libraries-syntax.vim)
  * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
- * [vim-handlebars](https://github.com/nono/vim-handlebars) - Vim plugin for Handlebars
+ * [vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify) - Beautify your javascript.
+ * [vim-handlebars](https://github.com/nono/vim-handlebars) - Handlebars syntax module for vim.
  * [html5.vim](https://github.com/othree/html5.vim) - HTML5 omnicomplete and syntax
  * [indenthtml.vim](https://github.com/vim-scripts/indenthtml.vim) - alternative html indent script
  * [HTML-AutoCloseTag](https://github.com/vim-scripts/HTML-AutoCloseTag)
  * [prefixer](https://github.com/bae22/prefixer)
+ * [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade highlighting for vim.
  * [vim-jst](https://github.com/briancollins/vim-jst) - ejs support for Vim.
  * [tomdoc.vim](https://github.com/mutewinter/tomdoc.vim) - A simple syntax add-on for vim that highlights your TomDoc comments.
  * [vim-tomdoc](https://github.com/jc00ke/vim-tomdoc) - Simple vim plugin that adds TomDoc templates to your code.
@@ -95,6 +99,7 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [vim-markdown](https://github.com/hallison/vim-markdown) - Markdown syntax highlight for Vim editor with snippets support
  * [vim-less](https://github.com/groenewege/vim-less) - vim syntax for LESS (dynamic CSS)
  * [vim-stylus](https://github.com/wavded/vim-stylus) - Syntax Highlighting for Stylus
+ * [scss-syntax](https://github.com/cakebaker/scss-syntax.vim) - SASS syntax highlighting for vim.
  * [matchit.zip](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
  * [vim-textobj-user](https://github.com/kana/vim-textobj-user) - Vim plugin: Support for user-defined text objects
  * [vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock) - A custom text object for selecting ruby blocks.

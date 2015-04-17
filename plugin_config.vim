@@ -74,8 +74,9 @@ let g:NERDTreeShowHidden=1
 " Session
 " ---------------
 let g:session_autosave=0
-let g:session_autoload=0
+let g:session_autoload=1
 nnoremap <leader>os :OpenSession<CR>
+nnoremap <leader>ss :SaveSession<CR>
 
 " ---------------
 " SpeedDating
@@ -88,7 +89,7 @@ nmap <silent><leader>dn <Plug>SpeedDatingNowUTC
 " ---------------
 " Supertab
 " ---------------
-
+" make YCM compatible with UltiSnips (using supertab)
 " ---------------
 " Tabular
 " ---------------
@@ -108,6 +109,9 @@ vmap <Leader>t" :Tabularize /"<CR>
 " ---------------
 " YouCompleteMe
 " ---------------
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_filetype_specific_completion_to_disable = {

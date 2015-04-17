@@ -4,6 +4,7 @@ Credit where credit is due: This is a fork of mutewinter's excellent [dot_vim](h
 
 ## Installation
 To install, perform the following:
+
 1. `git clone http://github.com/jsbalrog/dot_vim.git` in your home folder.
 
 2. `mv dot_vim .vim`
@@ -19,7 +20,7 @@ To install, perform the following:
 ## Requirements
 
  * [MacVim](https://github.com/b4winckler/macvim) - I'm currently using
- Vim 7.4 on Mavericks.
+ Vim 7.4 on Yosemite.
 
 ## Plugin Installation / Requirements
 
@@ -28,10 +29,9 @@ dependencies.
 
  * [Fugitive](https://github.com/tpope/vim-fugitive) Requires Git to be
  installed.
- * [syntastic](https://github.com/scrooloose/syntastic) Requires many different
- binaries installed depending on what filetypes you want it to check. See the
- [FAQ](https://github.com/scrooloose/syntastic#faq) for more information.
- * [Monofur for Powerline](https://github.com/rsrsl/ttf-monofur-powerline) The custom font I'm
+ * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) Requires many different
+ binaries installed depending on what filetypes you want it to check. See the README for more information.
+ * [Monaco for Powerline](https://github.com/rsrsl/ttf-monofur-powerline) The custom font I'm
  using for vim-powerline.
 
 ## Key bindings

@@ -10,7 +10,7 @@ source ~/.vim/platforms.vim
 source ~/.vim/config.vim
 " New commands
 source ~/.vim/commands.vim
-" All hotkeys, not depedant on plugins, are bound here.
+" All hotkeys, not dependent on plugins, are bound here.
 source ~/.vim/bindings.vim
 " Plugin-specific configuration.
 source ~/.vim/plugin_config.vim

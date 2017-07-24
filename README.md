@@ -20,7 +20,7 @@ To install, perform the following:
 ## Requirements
 
  * [MacVim](https://github.com/b4winckler/macvim) - I'm currently using
- Vim 7.4 on Yosemite.
+ Vim 8.0 on Sierra.
 
 ## Plugin Installation / Requirements
 
@@ -29,8 +29,6 @@ dependencies.
 
  * [Fugitive](https://github.com/tpope/vim-fugitive) Requires Git to be
  installed.
- * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) Requires many different
- binaries installed depending on what filetypes you want it to check. See the README for more information.
  * [Monaco for Powerline](https://github.com/rsrsl/ttf-monofur-powerline) The custom font I'm
  using for vim-powerline.
 
@@ -41,7 +39,7 @@ For a list of my current keybindings, please see the document [here](https://doc
 
  * [vundle](https://github.com/gmarik/vundle) - Vundle, the plug-in manager for Vim
  * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out  of windows (toggle between one window and multi-window)
- * [Command-T](https://github.com/wincent/Command-T) - Easily search for and open files
+ * [fzf](https://github.com/junegunn/fzf) - Easily search for and open files
  * [vim-space](https://github.com/christoomey/vim-space) - space.vim - Smart Space key for Vim
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions!
  * [vim-easygrep](https://github.com/dkprice/vim-easygrep) - grep commands for Vim.
@@ -66,12 +64,11 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [emmet-vim](https://github.com/mattn/emmet-vim) - zen-coding for Vim.
  * [switch.vim](https://github.com/AndrewRadev/switch.vim) - A simple Vim plugin to switch segments of text with predefined replacements
  * [delimitMate](https://github.com/Raimondi/delimitMate) - Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.
- * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim
+ * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim.
+ * [syntastic-local-eslint](https://github.com/mtscout6/syntastic-local-eslint.vim) - Eslint syntastic plugin for vim.
  * [supertab](https://github.com/ervandew/supertab) - More power for the tab key
  * [MatchTagAlways](https://github.com/Valloric/MatchTagAlways) - Vim's MatchParen for HTML tags
  * [vim-snippets](https://github.com/honza/vim-snippets) - A collection of snippets for Vim.
- * [ultisnips](https://github.com/SirVer/ultisnips) - Make snippets management easy.
- * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - Vim code completion module.
  * [vim-ruby](https://github.com/vim-ruby/vim-ruby) - Vim/Ruby Configuration Files
  * [vim-haml](https://github.com/tpope/vim-haml) - Vim runtime files for Haml, Sass, and SCSS
  * [vim-rails](https://github.com/tpope/vim-rails) - rails.vim: Ruby on Rails power tools
@@ -79,11 +76,11 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation.
  * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
  * [vim-json](https://github.com/leshill/vim-json) - Pathogen friendly packaging of vim-json from Jeroen Ruigrok van der Werven http://www.vim.org/scripts/script.php?script_id=1945
- * [jshint.vim](https://github.com/wookiehangover/jshint.vim) - Implementation of jshint.
  * [javascript-libraries-syntax](https://github.com/othree/javascript-libraries-syntax.vim)
  * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
  * [vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify) - Beautify your javascript.
  * [vim-handlebars](https://github.com/nono/vim-handlebars) - Handlebars syntax module for vim.
+ * [typescript-vim](https://github.com/leafgarland/typescript-vim) - Typescript plugin for vim.
  * [html5.vim](https://github.com/othree/html5.vim) - HTML5 omnicomplete and syntax
  * [indenthtml.vim](https://github.com/vim-scripts/indenthtml.vim) - alternative html indent script
  * [HTML-AutoCloseTag](https://github.com/vim-scripts/HTML-AutoCloseTag)

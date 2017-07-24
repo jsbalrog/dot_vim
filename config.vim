@@ -14,14 +14,6 @@ endif
 " Allow backspace to remove lines
 set backspace=indent,eol,start
 
-" ---------------
-" Color
-" ---------------
-"set background=light
-set background=dark
-colorscheme jellybeans
-"colorscheme solarized
-
 " -----------------------------
 " Backups, Tmp Files, and Undo
 " -----------------------------

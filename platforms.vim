@@ -22,10 +22,19 @@ elseif has('gui_macvim')
   " MacVim
 
   " From: https://github.com/Lokaltog/vim-powerline/wiki/Patched-fonts
-  "set guifont=Monaco\ for\ Powerline:h13
-  set guifont=Monofur\ for\ Powerline:h18
+  set guifont=Monaco\ for\ Powerline:h14
+  "set guifont=Monofur\ for\ Powerline:h18
   "set guifont=Source\ Code\ Pro\ for\ Powerline:h15
 
+  " ---------------
+  " Color
+  " ---------------
+  "set background=light
+  set background=dark
+  "colorscheme jellybeans
+  colorscheme solarized
+
+  
   " Hide Toolbar in MacVim
   if has("gui_running")
     set guioptions=egmrt
@@ -45,4 +54,13 @@ else
   imap OB <down>
   imap OC <right>
   imap OD <left>
+
+  " ---------------
+  " Color
+  " ---------------
+  "set background=light
+  set background=dark
+  colorscheme jellybeans
+  "colorscheme solarized
+  
 endif

@@ -48,6 +48,7 @@ nnoremap <leader>h *<C-O>
 nnoremap tn :tabnew<CR>
 nnoremap th :tabprevious<CR>
 nnoremap tl :tabnext<CR>
+nnoremap tc :tabclose<CR>
 
 " Cycling between buffers
 :nnoremap <leader>n :bnext<CR>

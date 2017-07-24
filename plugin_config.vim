@@ -3,19 +3,9 @@
 " ----------------------------------------
 
 " ---------------
-"  Command-T
-"  -------------
-set ttimeoutlen=50
-
-if &term =~ "xterm" || &term =~ "screen"
-  " as of March 2013, with current iTerm (1.0.0.20130319), tmux (1.8)
-  " and Vim (7.3, with patches 1-843), this is all I need:
-  " when I originally started using Command-T inside a terminal,
-  " I used to need these as well:
-  let g:CommandTSelectNextMap = ['<C-j>', '<ESC>OB']
-  let g:CommandTSelectPrevMap = ['<C-k>', '<ESC>OA']
-endif
-set wildignore+=*.swp,*.bak,*.class,*.jar,.git/**,node_modules/**
+"  fzf
+"  --------------
+nnoremap <leader>f :FZF<CR>
 
 " ---------------
 " space.vim
@@ -38,17 +28,16 @@ let delimitMate_expand_cr = 1
 let delimitMate_matchpairs = "[:],{:},(:)"
 
 " ---------------
-"  jshint.vim
-"  --------------
-let g:JSHintHighlightErrorLine = 0
-
-" ---------------
 " Syntastic
 " ---------------
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=2
+let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers=['eslint']
 
-" Platform-specific config files
+" Platform-specific 
 if has('win32') || has('win64')
   let g:syntastic_jsl_conf=$HOME.'/.vim/config/windows/syntastic/jsl.conf'
   let g:syntastic_disabled_filetypes=['sh'] " Disable .sh on Windows
@@ -60,15 +49,9 @@ endif
 nnoremap <silent><F2> :NERDTreeToggle<CR>
 nnoremap <leader>nf :NERDTreeFind<CR>
 let g:NERDTreeShowBookmarks=1
-"let g:NERDTreeChDirMode=2 " Change the NERDTree directory to the root node
-"let g:NERDTreeMinimalUI=1
 " Close NERDTree after opening a file
 let g:NERDTreeQuitOnOpen=2
 let g:NERDTreeShowHidden=1
-
-" ---------------
-"  NERDCommenter
-"  --------------
 
 " ---------------
 " Session
@@ -144,33 +127,6 @@ nmap <leader>gx  :execute ":Git checkout %"<CR>
 nmap <silent> <leader>wo :ZoomWin<CR>
 
 " ---------------
-" FuzzyFinder
-" ---------------
-" directories and extensions to ignore when listing files
-"FuzzyFinder should ignore all files in .gitignore
-"Hat-tip: http://stackoverflow.com/a/14641279
-"let ignorefile = ".gitignore"
-"if filereadable(ignorefile)
-
-"  let ignore = '\v\~$'
-"  for line in readfile(ignorefile)
-"    let line = substitute(line, '\.', '\\.', 'g')
-"    let line = substitute(line, '\*', '.*', 'g')
-"    let ignore .= '|^' . line
-"  endfor
-
-"  let g:fuf_file_exclude = ignore
-"endif
-
-" limit number of displayed matches
-" (makes response instant even on huge source trees)
-"let g:fuf_enumeratingLimit = 20
-
-"nmap <M-S-b> :FufBuffer<CR>
-"nmap <M-S-f> :FufFile **/<CR>
-"nmap <M-S-d> :FufDir<CR>
-
-" ---------------
 " ctrlp.vim
 " ---------------
 " Ensure Ctrl-P isn't bound by default
@@ -203,16 +159,6 @@ nnoremap <leader>r :CtrlPRoot<CR>
 nnoremap <leader>u :CtrlPCurFile<CR>
 nnoremap <leader>m :CtrlPMRUFiles<CR>
 nnoremap <leader>b :CtrlPBuffer<CR>
-
-" ---------------
-"  ctrlspace
-"  --------------
-"hi CtrlSpaceSelected term=reverse ctermfg=187  ctermbg=23  cterm=bold
-"hi CtrlSpaceNormal   term=NONE    ctermfg=244  ctermbg=232 cterm=NONE
-"hi CtrlSpaceSearch   ctermfg=220  ctermbg=NONE cterm=bold
-"hi CtrlSpaceStatus   ctermfg=230  ctermbg=234  cterm=NONE
-
-"set hidden
 
 " ---------------
 " Powerline
@@ -298,6 +244,7 @@ let g:html_indent_style1 = "inc"
 " Undotree
 " ---------------
 nnoremap<F5> :UndotreeToggle<cr>
+
 " ---------------
 " Vundle
 " ---------------

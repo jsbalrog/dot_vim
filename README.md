@@ -15,12 +15,7 @@ To install, perform the following:
 
 5. Install [Vundle](https://github.com/gmarik/vundle) with `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle`
 
-6. `vim +PluginInstall +qall`.
-
-## Requirements
-
- * [MacVim](https://github.com/b4winckler/macvim) - I'm currently using
- Vim 8.0 on Sierra.
+6. `vim +PlugInstall +qall`.
 
 ## Plugin Installation / Requirements
 

@@ -19,7 +19,7 @@ Plugin 'ZoomWin'
 "Plugin 'wincent/Command-T'
 Plugin 'junegunn/fzf'
 " This fork is required due to remapping ; to :
-Plugin 'christoomey/vim-space'
+Plugin 'spiiph/vim-space'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'dkprice/vim-easygrep'
 "Plugin 'szw/vim-ctrlspace'

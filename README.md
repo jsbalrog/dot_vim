@@ -35,7 +35,7 @@ For a list of my current keybindings, please see the document [here](https://doc
  * [vundle](https://github.com/gmarik/vundle) - Vundle, the plug-in manager for Vim
  * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in/out  of windows (toggle between one window and multi-window)
  * [fzf](https://github.com/junegunn/fzf) - Easily search for and open files
- * [vim-space](https://github.com/christoomey/vim-space) - space.vim - Smart Space key for Vim
+ * [vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions!
  * [vim-easygrep](https://github.com/dkprice/vim-easygrep) - grep commands for Vim.
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder.
